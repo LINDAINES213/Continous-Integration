@@ -12,7 +12,7 @@ def _strip_accents(s: str) -> str:
 
 def reverse(s: str) -> str:
     _ensure_str(s, "s")
-    return s
+    return s[::-1]
 
 def count_vowels(s: str) -> int:
     _ensure_str(s, "s")
