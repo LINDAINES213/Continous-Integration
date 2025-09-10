@@ -5,7 +5,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from text_manipulation import reverse, count_vowels, is_palindrome, to_upper, concat
 
-
 # ---------- reverse ----------
 @pytest.mark.parametrize(
     "s, expected",
