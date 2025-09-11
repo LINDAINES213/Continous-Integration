@@ -18,7 +18,7 @@ def count_vowels(s: str) -> int:
     _ensure_str(s, "s")
     s = _strip_accents(s)
     vowels = "aeiouAEIOU"
-    return 1
+    return sum(1 for char in s if char in vowels)
 
 def is_palindrome(s: str) -> bool:
     _ensure_str(s, "s")
